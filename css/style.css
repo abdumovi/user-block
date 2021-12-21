@@ -44,13 +44,51 @@ h6{
 p{
   margin: 0;
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
+
 .container{
+  max-width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+.form__container{
+  height: 100vh;
+  position: relative;
+}
+.forma{
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.navbar-collapse{
+  justify-content: end;
+}
+.all{
+  display: flex;
+  align-items: center;
+}
+.navs{
+  flex-grow: 1;
+}
+.btn-outline-info{
+  padding: 19px;
+  margin-left: 10px;
+}
+.todo{
+  margin-left: 102px;
+}
+.doing{
+  margin-right: 10px;
+}
+.done{
+  
+  margin-right: 79px;
+
+}
+.btns-us{
+  text-align: end;
 }
